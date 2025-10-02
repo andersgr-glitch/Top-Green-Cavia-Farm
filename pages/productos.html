@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <title>Productos</title>
+</head>
+<body class="fondo-productos">
+     <header>
+    <a href="../index.html" class="logo">
+      <img src="../images/logo.png" alt="Logo Top Green Cavia">
+      <h1>Top Green Cavia</h1>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/sobre-nosotros.html">Sobre Nosotros</a></li>
+        <li><a href="../pages/servicios.html">Servicios</a></li>
+        <li><a href="../pages/productos.html">Productos</a></li>
+        <li><a href="../pages/contacto.html">Contacto</a></li>
+        <div class="cart-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span class="cart-count" id="cartCount">0</span>
+            </div>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="products-section">
+        <div class="section-header">
+            <h1 class="section-title">Nuestros Productos</h1>
+            <p class="section-subtitle">
+                Descubre nuestra línea completa de productos orgánicos y sostenibles. Desde alimentos frescos 
+                hasta soluciones integrales para tu huerto familiar, todo cultivado con amor y respeto por la naturaleza.
+            </p>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="../images/cuyes.jpg" alt="Cuyes Premium" class="product-image">
+                    <div class="product-badge">Proteína Premium</div>
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Proteína Animal</div>
+                    <h3 class="product-title">Cuyes Premium</h3>
+                    <p class="product-description">
+                        Cuyes criados de forma orgánica y sostenible, alimentados con forrajes naturales. 
+                        Disponibles vivos o procesados según tus necesidades.
+                    </p>
+                    <ul class="product-features">
+                        <li>Alimentación 100% natural</li>
+                        <li>Crianza libre de antibióticos</li>
+                        <li>Alta calidad proteica</li>
+                        <li>Entrega fresca garantizada</li>
+                    </ul>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-current">COP $40.000</span>
+                            <span class="price-unit">por cuy procesado</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <span>Agregar</span>
+                            <span>🛒</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-container">
+                    <img src="../images/hortalizas.jpg" alt="Hortalizas Orgánicas" class="product-image">
+                    <div class="product-badge">Orgánico Certificado</div>
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Vegetales Frescos</div>
+                    <h3 class="product-title">Hortalizas Orgánicas</h3>
+                    <p class="product-description">
+                        Cilantro, lechuga, espinaca y otras hortalizas de ciclo corto cultivadas 
+                        sin químicos. Frescas del huerto a tu mesa.
+                    </p>
+                    <ul class="product-features">
+                        <li>Libres de pesticidas</li>
+                        <li>Cosecha diaria</li>
+                        <li>Variedad estacional</li>
+                        <li>Empaque ecológico</li>
+                    </ul>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-current">COP $10.000</span>
+                            <span class="price-unit">por kg</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <span>Agregar</span>
+                            <span>🛒</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-image-container">
+                     <img src="../images/abono.jpg" alt="Abono Orgánico" class="product-image">
+                    <div class="product-badge">Eco-Friendly</div>
+                </div>
+                <div class="product-content">
+                    <div class="product-category">Fertilizantes Naturales</div>
+                    <h3 class="product-title">Abono Orgánico</h3>
+                    <p class="product-description">
+                        Fertilizante natural elaborado con residuos orgánicos compostados. 
+                        Enriquece el suelo y mejora la estructura de tus cultivos.
+                    </p>
+                    <ul class="product-features">
+                        <li>100% compostado</li>
+                        <li>Rico en nutrientes</li>
+                        <li>Mejora la retención de agua</li>
+                        <li>Presentación en sacos</li>
+                    </ul>
+                    <div class="product-footer">
+                        <div class="product-price">
+                            <span class="price-current">COP $15.000</span>
+                            <span class="price-unit">saco de 25kg</span>
+                        </div>
+                        <button class="add-to-cart-btn">
+                            <span>Agregar</span>
+                            <span>🛒</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <div class="cta-content">
+                <h2 class="cta-title">¿Necesitas algo personalizado?</h2>
+                <p class="cta-subtitle">
+                    Trabajamos contigo para crear soluciones a medida. Desde pedidos especiales 
+                    hasta asesorías específicas para tu proyecto sostenible.
+                </p>
+                <div class="cta-buttons">
+                    <a href="../pages/contacto.html" class="cta-button primary">
+                        <span>Contactar Ahora</span>
+                        <span>💬</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- FOOTER -->
+<footer>
+  <div class="footer-container">
+    <!-- Columna 1 -->
+    <div class="footer-col">
+      <h2>Top Green Cavia</h2>
+      <p>Producción sostenible de cuyes y hortalizas con economía circular en La Cumbre – Valle.</p>
+    </div>
+
+    <!-- Columna 2 -->
+    <div class="footer-col">
+      <h3>Explora</h3>
+      <ul>
+        <li><a href="../pages/sobre-nosotros.html">Acerca de nosotros</a></li>
+        <li><a href="../pages/contacto.html">Contacto</a></li>
+        <li><a href="../pages/servicios.html">Servicios</a></li>
+      </ul>
+    </div>
+
+    <!-- Columna 3 -->
+    <div class="footer-col">
+      <h3>Síguenos</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+      </ul>
+    </div>
+
+    <!-- Columna 4 -->
+    <div class="footer-col">
+      <h3>Suscríbete</h3>
+      <p>Regístrate con tu correo para recibir noticias y actualizaciones.</p>
+      <form>
+        <input type="email" placeholder="Correo electrónico">
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+</footer>
+<script src="../js/carrito.js"></script>
+</body>
+</html>
